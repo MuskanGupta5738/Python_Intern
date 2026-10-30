@@ -1,0 +1,6 @@
+.env
+**/.env
+dev_env/
+**/dev_env/
+.venv/
+**/.venv/
