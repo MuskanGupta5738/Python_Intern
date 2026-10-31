@@ -453,13 +453,13 @@ if page == "Overview":
     on_click=navigate_to,
     args=(item[3],),
 )
-            if st.button(
-                "Open " + item[1] + " →",
-                key="go_" + item[3],
-                use_container_width=True,
-            ):
-                st.session_state["page"] = item[3]
-                st.rerun()
+            # if st.button(
+                # "Open " + item[1] + " →",
+                # key="go_" + item[3],
+                # use_container_width=True,
+            # ):
+                # st.session_state["page"] = item[3]
+                # st.rerun()
                 
     st.info(
         "Cards show feature availability, not live statistics. "
