@@ -303,7 +303,10 @@ h1, h2, h3, h4,
 </style>
 """, unsafe_allow_html=True)
 
+# ##########################################
 
+def navigate_to(page_name):
+    st.session_state["page"] = page_name
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
